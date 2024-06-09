@@ -26,7 +26,7 @@ export default function Home() {
         } text-[20px] text-white px-3 py-2 rounded-md`}
         onClick={() => {
           localStorage.setItem("api_key", api);//key is stored in localstorage, so that it can be accessed later
-          signIn(undefined, { callbackUrl: "/email" });//after signing in user will be redirected to email page
+          signIn(undefined, { callbackUrl: "https://email-classifier-one.vercel.app/email" });//after signing in user will be redirected to email page
         }}
       >
         Login With Google
