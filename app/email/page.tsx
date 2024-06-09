@@ -1,5 +1,5 @@
 import SignOut from '@/components/SignOut'
-import { authOptions } from '../api/auth/[...nextauth]/route'
+import { authOptions } from '../auth/AuthOptions'
 import { getServerSession } from 'next-auth'
 import Emails from '../../components/Emails'
 const page = async() => {
