@@ -16,6 +16,7 @@ export default function Home() {
       </div>
     );
   }
+  console.log(process.env.NEXT_PUBLIC_PROJECT_URL)
   //else user is not signed in
   return (
     <div className="flex h-screen bg-black flex-col space-y-8 justify-center items-center ">
