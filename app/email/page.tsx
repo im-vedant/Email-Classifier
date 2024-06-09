@@ -3,6 +3,7 @@ import { authOptions } from '../auth/AuthOptions'
 import { getServerSession } from 'next-auth'
 import Emails from '../../components/Emails'
 const page = async() => {
+  
   const session=await getServerSession(authOptions)//fetching the session 
   if (session)
     return (
