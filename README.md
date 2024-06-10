@@ -1,7 +1,22 @@
-# Project Setup
+# Email Classification Web Application
 
-Welcome to the Email Classifier! Follow the instructions below to set up the project on your local machine.
+This web application allows users to log in using Google OAuth, fetch their recent emails from Gmail, and classify them into different categories using Google Gemini.
 
+## Features
+
+- **User Authentication**: Log in using Google OAuth with NextAuth.
+- **Fetch Emails**: Retrieve the last X emails from Gmail using the Gmail API.
+- **Classify Emails**: Categorize emails into important, promotional, social, marketing, and spam using Google Gemini.
+- **Local Storage**: Store the OpenAI key and fetched emails in the user's local storage for convenience and privacy.
+
+## Tech Stack
+
+- **Next.js**: For the Full Stack framework.
+- **NextAuth**: For user authentication with Google OAuth.
+- **Gmail API**: To fetch emails.
+- **Google Gemini**: For email classification.
+- **Tailwind CSS**: For modern UI design.
+  
 ## Getting Started
 
 1.  Clone the project repository from GitHub to your local machine.
